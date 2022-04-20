@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Kalam:wght@300;400&family=Raleway:wght@100&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Video Preview - Michael Cordova</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="nav">
+            <h1>VideoLab</h1>
+            <input class="search" type="search" value="Search...">
+            <button class="login" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div class="mid-main">
+        <div class="mid-box">
+            <video id="myVideo" width="350"  poster="video-preview/assets/video-placeholder.png" controls muted onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="video-preview/assets/angry.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+             </video>
+            
+        </div>
+        <div class="right-top">
+            <h2>Up Next</h2><br>
+            <hr>
+            <div class="upnext">
+                <img class="placeholder" src="video-preview/assets/video-placeholder.png" alt="placeholder"> <p class="upnext-content">Not Rock and Roll</p>
+            </div>
+            <div class="upnext">
+                <img class="placeholder" src="video-preview/assets/video-placeholder.png" alt="placeholder"> <p class="upnext-content">10 Facts About ET's Cat</p>
+            </div>
+            <div class="upnext">
+                <img class="placeholder" src="video-preview/assets/video-placeholder.png" alt="placeholder"> <p class="upnext-content">5 Cosplay Tips</p>
+            </div>
+            <div class="upnext">
+                <img class="placeholder" src="video-preview/assets/video-placeholder.png" alt="placeholder"> <p class="upnext-content">Boy Battles Dinobat in Thunderstorm</p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-main">
+        <div class="mid-box">
+            <div class="mid-content">
+                <h3>Angry Young Man Billy Joel Cover</h3>
+                <p><em>1.3k views | April 20, 2022</em></p>
+                <div class="user-icon">
+                    <img class="user-profile" src="video-preview/assets/AndrewLederman.png" alt="user profile"><p>Andrew Lederman</p>
+                </div>
+            </div>
+            <button class="btn" onclick="alert('Michael Cordova has subscribed!!!!')">Subscribe</button>
+            
+        </div>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

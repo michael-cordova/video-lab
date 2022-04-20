@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+.header {
+    display: flex;
+    
+    
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 55px;
+    margin: auto;
+    background-color: #595660;
+    color: white;
+    border-top: 5px solid rgb(112, 7, 177);
+    
+    
+}
+.search {
+    width: 300px;
+    height: 25px;
+    
+}
+.login {
+    width: 75px;
+    height: 25px;
+    background-color: rgb(100, 139, 197);
+    color: white;
+    margin-right: 25px;
+    border: solid 2px black;
+    box-shadow: 3px 3px black;
+}
+
+
+.mid-main {
+    display: flex;
+    margin: auto;
+    width: 650px;
+    margin-top: 15px;
+    
+
+}
+.bottom-main {
+    display: flex;
+    margin: auto;
+    width: 650px;
+
+}
+.content {
+    padding-left: 25px;
+    margin-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    width: 500px;
+    align-self: center;
+    font-family: 'Raleway', sans-serif;    
+    font-size: 30px;
+    
+    }
+.mid-box {
+        display: flex;
+        width: 400px;
+        height: 175px;
+        margin-top: 1px;
+    
+}
+.mid-content {
+    width: 300px;
+    align-self: center;
+    margin-top: 5px;
+    
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.right-top {
+    margin-left: 15px;
+    width: 250px;
+    padding-top: 15px;
+    padding-left: 33px;
+    height: 110px;
+    
+    
+}
+.btn {
+    background-color: rgb(43, 1, 121);
+    color: rgb(255, 255, 255);
+    width: 75px;
+    height: 25px;
+    margin-top: 12px;
+    border: solid 2px black;
+    box-shadow: 3px 3px black;
+    align-items: center;
+    align-self: center;
+}
+.user-icon {
+    display: flex;
+    align-items: center;
+    color: purple;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: -9px;
+    margin-top: 10px;
+}
+p {
+    margin-left: 10px;
+}
+.user-profile {
+    width: 55px;
+    border-radius: 50%;
+}
+
+.placeholder {
+    height: 50px;
+}
+.upnext {
+    margin-top: 5px;;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.upnext-content {
+    margin-left: 5px;
+}
+h1 {
+    margin-left: 15px;
+}
